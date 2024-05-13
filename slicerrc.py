@@ -12,6 +12,6 @@ for image_file in image_files:
 # Set the desired directory for saving files
 slicer.app.settings().setValue("IO/DefaultWriteDirectory", "/root/Documents")
 
-slicer.util.mainWindow().moduleSelector().selectModule('Markups')
+slicer.util.mainWindow().moduleSelector().selectModule('SegmentEditor')
 
 slicer.app.settings().sync()
