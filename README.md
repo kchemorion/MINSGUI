@@ -42,5 +42,5 @@ To access ' ' MINS:
 ## Important Notes
 
 - Ensure you have downloaded the ' ' MINS application and placed it in the `MINS/` directory before building the Docker container.
-- The provided `MINSrc.py` script is executed when ' ' MINS starts and loads images from the `/images` directory into the application.
+- The provided `slicerrc.py` script is executed when ' ' MINS starts and loads images from the `/images` directory into the application.
 - The `VOLUME` directive in the Dockerfile maps the `/root/Documents` and `/images` directories on the host machine to the corresponding directories in the Docker container. You can use these directories to access files and images within the container.
